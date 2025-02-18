@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neil Gaiman</title>
+      <link>http://localhost:1313/posts/20250214001758-neil_gaiman/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20250214001758-neil_gaiman/</guid>
+      <description>hehe ball&#xA;okay interesting heading okay&#xA;\(\dfrac{1}{x^2 +4x + 3}\)&#xA;huh okay yup interesting </description>
+      <content:encoded><![CDATA[<p>hehe ball</p>
+<h2 id="okay-interesting-heading">okay interesting heading</h2>
+<p>okay</p>
+<p>\(\dfrac{1}{x^2 +4x + 3}\)</p>
+<h2 id="huh">huh</h2>
+<h3 id="okay">okay</h3>
+<ul>
+<li>yup</li>
+<li>interesting</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
