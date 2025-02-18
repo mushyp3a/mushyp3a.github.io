@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on mushyp3a</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on mushyp3a</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
@@ -24,6 +24,15 @@
 <li>yup</li>
 <li>interesting</li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>newpost</title>
+      <link>http://localhost:1313/posts/20250218232116-newpost/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20250218232116-newpost/</guid>
+      <description>okay fun little test</description>
+      <content:encoded><![CDATA[<p>okay fun little test</p>
 ]]></content:encoded>
     </item>
   </channel>

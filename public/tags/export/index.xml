@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Export on My New Hugo Site</title>
+    <title>Export on mushyp3a</title>
     <link>http://localhost:1313/tags/export/</link>
-    <description>Recent content in Export on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Export on mushyp3a</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/export/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,6 +13,21 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/20250215172751-complex_conjugate/</guid>
       <description>Definition The Complex Conjugate of a complex number \(Z=x+iy\) is given by:&#xA;\[\overline{Z}=\overline{x+iy}=x-iy\]&#xA;This operation flips the sign of the imaginary part&#xA;Properties When multiplied by the original, the result is always a real number \[Z \cdot \overline{Z} = (x+iy)*x-iy) = x^2 + y^2\]&#xA;Applications Rationalise complex fractions - Operations on Complex Numbers Find the modulus of a complex number </description>
+      <content:encoded><![CDATA[<h2 id="definition">Definition</h2>
+<p>The Complex Conjugate of a complex number \(Z=x+iy\) is given by:</p>
+<p>\[\overline{Z}=\overline{x+iy}=x-iy\]</p>
+<p>This operation flips the sign of the imaginary part</p>
+<h2 id="properties">Properties</h2>
+<ul>
+<li>When multiplied by the original, the result is always a real number</li>
+</ul>
+<p>\[Z \cdot \overline{Z} = (x+iy)*x-iy) = x^2 + y^2\]</p>
+<h2 id="applications">Applications</h2>
+<ul>
+<li>Rationalise complex fractions - <a href="">Operations on Complex Numbers</a></li>
+<li>Find the modulus of a complex number</li>
+</ul>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
