@@ -10,7 +10,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
+                hreflang="en"
                 href="http://localhost:1313/categories/"
                 />
     <xhtml:link
@@ -27,7 +27,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
+                hreflang="en"
                 href="http://localhost:1313/"
                 />
     <xhtml:link
@@ -44,7 +44,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
+                hreflang="en"
                 href="http://localhost:1313/tags/"
                 />
     <xhtml:link

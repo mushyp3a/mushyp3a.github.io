@@ -16,13 +16,14 @@ buildExpired = false
   title = "ExampleSite"
   description = "ExampleSite description"
   defaultTheme = "auto"  # Supports dark/light mode
-  ShowReadingTime = true
-  ShowWordCount = true
+  ShowReadingTime = false
+  ShowWordCount = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   disableScrollToTop = false
   comments = false
   UseHugoToc = true
+  ShowToc = true
 
 [params.homeInfoParams]
   Title = "⸜( ˙˘˙)⸝"
@@ -38,6 +39,12 @@ buildExpired = false
     name = "Posts"
     url = "/posts/"
     weight = 10
+    
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 30
 
   [[menu.main]]
     identifier = "tags"
