@@ -4,18 +4,28 @@
     <title>Posts on mushyp3a</title>
     <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on mushyp3a</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>newpost</title>
-      <link>http://localhost:1313/post/20250218232116-newpost/</link>
+      <title>Neil Gaiman</title>
+      <link>http://localhost:1313/post/20250214001758-neil_gaiman/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/20250218232116-newpost/</guid>
-      <description>okay fun little test</description>
-      <content:encoded><![CDATA[<p>okay fun little test</p>
-]]></content:encoded>
+      <guid>http://localhost:1313/post/20250214001758-neil_gaiman/</guid>
+      <description>hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting </description>
     </item>
   </channel>
 </rss>

@@ -1,24 +1,51 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'mushyp3a'
-theme = "hugo-bearcub"
+baseURL = "https://examplesite.com/"
+title = "mushyp3a"
+theme = "PaperMod"
+paginate = 5
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  title = "ExampleSite"
+  description = "ExampleSite description"
+  defaultTheme = "auto"  # Supports dark/light mode
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  disableScrollToTop = false
+  comments = false
+  UseHugoToc = true
+
+[params.homeInfoParams]
+  Title = "⸜( ˙˘˙)⸝"
+  Content = "Welcome to my silly little site"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/mushyp3a"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
+    identifier = "posts"
+    name = "Posts"
     url = "/posts/"
-    weight = 1
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
-[params]
-  math = true
+  [markup.highlight]
+    noClasses = false  # Enables syntax highlighting
+

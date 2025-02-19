@@ -4,8 +4,8 @@
     <title>mushyp3a</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on mushyp3a</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,18 +13,27 @@
       <link>http://localhost:1313/posts/20250214001758-neil_gaiman/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20250214001758-neil_gaiman/</guid>
-      <description>hehe ball&#xA;okay interesting heading okay&#xA;\(\dfrac{1}{x^2 +4x + 3}\)&#xA;huh okay yup interesting </description>
-      <content:encoded><![CDATA[<p>hehe ball</p>
-<h2 id="okay-interesting-heading">okay interesting heading</h2>
-<p>okay</p>
-<p>\(\dfrac{1}{x^2 +4x + 3}\)</p>
-<h2 id="huh">huh</h2>
-<h3 id="okay">okay</h3>
-<ul>
-<li>yup</li>
-<li>interesting</li>
-</ul>
-]]></content:encoded>
+      <description>hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting hehe ball
+okay interesting heading okay
+\(\dfrac{1}{x^2 +4x + 3}\)
+huh okay yup interesting Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum pharetra mauris, id sodales massa volutpat a.</description>
+    </item>
+    <item>
+      <title>newpost2</title>
+      <link>http://localhost:1313/posts/20250218233504-newpost2/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/20250218233504-newpost2/</guid>
+      <description>Hello everyone Oops
+\[4^6\]</description>
     </item>
     <item>
       <title>newpost</title>
@@ -32,8 +41,15 @@
       <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/20250218232116-newpost/</guid>
       <description>okay fun little test</description>
-      <content:encoded><![CDATA[<p>okay fun little test</p>
-]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>⸜( ˙˘˙)⸝ Welcome to my silly little site&amp;hellip;
+I have no idea what I am going to do with this
+\(Z=\dfrac{1}{x^2+4x-3}\)</description>
     </item>
   </channel>
 </rss>

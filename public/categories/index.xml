@@ -4,8 +4,8 @@
     <title>Categories on mushyp3a</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on mushyp3a</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en</language>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

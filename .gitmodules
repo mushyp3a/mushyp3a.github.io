@@ -8,3 +8,18 @@
 [submodule "themes/hugo-bearcub"]
 	path = themes/hugo-bearcub
 	url = https://github.com/clente/hugo-bearcub
+[submodule "themes/fluidity"]
+	path = themes/fluidity
+	url = https://github.com/wayjam/hugo-theme-fluidity.git
+[submodule "themes/hugo-theme-fluidity"]
+	path = themes/hugo-theme-fluidity
+	url = https://github.com/wayjam/hugo-theme-fluidity.git
+[submodule "themes/salinger"]
+	path = themes/salinger
+	url = https://github.com/jacksalici/salinger-theme.git
+[submodule "themes/doks"]
+	path = themes/doks
+	url = https://github.com/h-enk/doks.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
