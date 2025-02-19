@@ -1,6 +1,6 @@
 baseURL = "https://examplesite.com/"
 title = "mushyp3a"
-theme = "PaperMod"
+theme = "papermod"
 paginate = 5
 
 enableRobotsTXT = true
