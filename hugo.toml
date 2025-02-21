@@ -1,6 +1,6 @@
 baseURL = "https://examplesite.com/"
 title = "mushyp3a"
-theme = "PaperMod"
+theme = "hextra"
 paginate = 5
 
 enableRobotsTXT = true
@@ -13,46 +13,88 @@ buildExpired = false
   minifyOutput = true
 
 [params]
-  title = "ExampleSite"
-  description = "ExampleSite description"
-  defaultTheme = "auto"  # Supports dark/light mode
-  ShowReadingTime = false
-  ShowWordCount = false
+  title = "Hextra Example"
+  description = "A Hugo theme for documentation sites"
+  defaultTheme = "auto"  # auto, dark, light
+
+  ShowReadingTime = true
+  ShowWordCount = true
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
   disableScrollToTop = false
-  comments = false
   UseHugoToc = true
   ShowToc = true
+  favicon = ""
+
+  [params.navbar]
+    displayLogo = false
+
+  [params.blog]
+    [params.blog.list]
+      displayTags = true
+      sortBy = "date"
+      sortOrder = "desc"
+
+  [params.breadcrumbs]
+    enable = true
+
+  [params.comments]
+    enable = false
+
+  [params.header]
+    desktopMode = "fixed"   # "fixed", "normal", "sticky"
+    showSearch = true
+    logo = ""
+
+  [params.footer]
+    enable = true
+    displayCopyright = false
+    displayPoweredBy = false
+
+  # Search configuration
+  [params.search]
+    enable = true
+    type = "flexsearch"
+
+    [params.search.flexsearch]
+      index = "content"  # Index page by: content | summary | heading | title
 
 [params.homeInfoParams]
-  Title = "⸜( ˙˘˙)⸝"
-  Content = "Welcome to my silly little site"
+  Title = "Welcome to Hextra"
+  Content = "A beautiful Hugo theme for documentation sites."
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/mushyp3a"
+  url = "https://github.com/example"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/example"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/posts/"
-    weight = 10
-    
+    url = "/blog/"
+    weight = 1
+
   [[menu.main]]
     identifier = "about"
-    name = "About Me"
+    name = "About"
     url = "/about/"
-    weight = 30
+    weight = 3
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 20
+    weight = 2
+
+  [[menu.main]]
+    name = "search"
+    [[menu.main.params]]
+        type = "search"
+    weight = 4
 
 [markup]
   [markup.highlight]
     noClasses = false  # Enables syntax highlighting
-

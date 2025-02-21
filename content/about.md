@@ -7,7 +7,3 @@ math: katex
 
 # About Me
 
----
-
-
-n

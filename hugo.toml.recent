@@ -1,0 +1,59 @@
+baseURL = "https://examplesite.com/"
+title = "mushyp3a"
+theme = "hextra"
+paginate = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  title = "ExampleSite"
+  description = "ExampleSite description"
+  defaultTheme = "auto"  # Supports dark/light mode
+
+  ShowReadingTime = false
+  ShowWordCount = false
+  ShowPostNavLinks = true
+  disableScrollToTop = false
+  UseHugoToc = true
+  ShowToc = false
+
+  [params.comments]
+    enable = false
+
+[params.homeInfoParams]
+  Title = "⸜( ˙˘˙)⸝"
+  Content = "Welcome to my silly little site"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/mushyp3a"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+[markup]
+  [markup.highlight]
+    noClasses = false  # Enables syntax highlighting
