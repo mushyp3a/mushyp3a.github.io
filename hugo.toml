@@ -25,6 +25,10 @@ buildExpired = false
   ShowToc = true
   favicon = ""
 
+  [params.theme]
+    default = "dark"
+    displayToggle = false
+
   [params.navbar]
     displayLogo = false
 
