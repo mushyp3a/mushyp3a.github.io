@@ -81,19 +81,27 @@ buildExpired = false
     identifier = "about"
     name = "./about"
     url = "/about/"
-    weight = 3
+    weight = 30
 
   [[menu.main]]
     identifier = "tags"
     name = "./tags"
     url = "/tags/"
-    weight = 2
+    weight = 20
 
   [[menu.main]]
     name = "search"
     [[menu.main.params]]
         type = "search"
-    weight = 4
+    weight = 40
+
+  [[menu.main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/mushyp3a"  # Replace with your GitHub profile
+  weight = 50
+  [menu.main.params]
+    icon = "github"  # Uses Hextra's built-in GitHub icon]]
 
 [markup]
   [markup.highlight]
