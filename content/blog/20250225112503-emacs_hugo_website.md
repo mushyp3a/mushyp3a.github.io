@@ -72,6 +72,15 @@ git remote add origin <remote-repo-URL>
 
 Now upload all the newly created hugo site files to your remote repository.
 
+If you would like the ability to commit all changes and push them from a single command within Emacs you can add the following code to your **config.el** file:
+
+```elisp
+(defun my-git-push-site ()
+  (interactive)
+  (let ((default-directory "~/path/to/hugo/site"))  ;; Change this to your repo path
+    (shell-command "git add . && git commit -m 'Auto-update' && git push")))
+```
+
 
 #### Hugo Themes {#hugo-themes}
 
