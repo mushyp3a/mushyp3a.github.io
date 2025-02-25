@@ -6,5 +6,5 @@ tags: []
 math: katex
 ---
 
-Hi, I'm mushypea. I write about whatever's on my mind - projects, ideas, or life.
+Hi, I'm mushypea. I write about whatever's on my mind - projects, ideas etc.
 
