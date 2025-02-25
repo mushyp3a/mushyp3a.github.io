@@ -77,19 +77,19 @@ buildExpired = false
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "./blog"
+    name = "Blog"
     url = "/blog/"
     weight = 1
 
   [[menu.main]]
     identifier = "about"
-    name = "./about"
+    name = "About"
     url = "/about/"
     weight = 30
 
   [[menu.main]]
     identifier = "tags"
-    name = "./tags"
+    name = "Tags"
     url = "/tags/"
     weight = 20
 
